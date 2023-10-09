@@ -23,7 +23,7 @@ class home_activity : AppCompatActivity() {
                     R.id.navigationquran->{
                         supportFragmentManager.beginTransaction().replace(R.id.container1,quran_frag()).commit()
                     }
-                    R.id.navigationhadeeth->{
+                        R.id.navigationhadeeth->{
                         supportFragmentManager.beginTransaction().replace(R.id.container1,hadeeth_frg()).commit()
                     }
                     R.id.navigationsebha->{

@@ -11,6 +11,8 @@
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:text="asdasda"
+     android:textStyle="bold"
+        android:textColor="@color/primary"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"

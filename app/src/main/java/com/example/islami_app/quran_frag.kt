@@ -34,7 +34,7 @@ var names= listOf("الفاتحه","البقرة","آل عمران","النسا�
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        initrecyclerview()
+            initrecyclerview()
     }
 lateinit var adapter:suras_adapter
     private fun initrecyclerview() {
