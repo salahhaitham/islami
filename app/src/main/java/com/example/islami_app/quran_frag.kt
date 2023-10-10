@@ -1,10 +1,12 @@
 package com.example.islami_app
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import com.example.islami_app.databinding.FragmentQuranFragBinding
 import com.example.islami_app.taps.quran.suras_adapter
 
@@ -38,10 +40,25 @@ var names= listOf("الفاتحه","البقرة","آل عمران","النسا�
     }
 lateinit var adapter:suras_adapter
     private fun initrecyclerview() {
-        adapter=suras_adapter(names )
+        adapter=suras_adapter(names)
+
+        adapter.onitemclick=object :suras_adapter.onitemclicklistner{
+            override fun onclick(position: Int, name: String) {
+                startsuradetailsactivity(position,name)
+            }
+        }
+
         viewbinding.recycler1.adapter=adapter
 
 
     }
+
+    private fun startsuradetailsactivity(position: Int, name: String) {
+           val intent=Intent(context,Sura_detailsActivity::class.java)
+            intent.putExtra(constants.EXTRA_INDEX,position+1)
+        intent.putExtra(constants.EXTRA_NAME,name)
+        startActivity(intent)
+    }
+
 
 }
