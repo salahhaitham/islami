@@ -6,12 +6,16 @@
         <entry key="..\:/ISLAMIAPP/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1965" />
         <entry key="..\:/ISLAMIAPP/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1965" />
         <entry key="..\:/ISLAMIAPP/app/src/main/res/layout/Sura_details.xml" value="0.36666666666666664" />
+        <entry key="..\:/ISLAMIAPP/app/src/main/res/layout/activity_hadeeth_details.xml" value="0.36666666666666664" />
         <entry key="..\:/ISLAMIAPP/app/src/main/res/layout/activity_home.xml" value="0.33" />
         <entry key="..\:/ISLAMIAPP/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
         <entry key="..\:/ISLAMIAPP/app/src/main/res/layout/content.xml" value="0.358695652173913" />
         <entry key="..\:/ISLAMIAPP/app/src/main/res/layout/fragment_hadeeth_frg.xml" value="0.36666666666666664" />
         <entry key="..\:/ISLAMIAPP/app/src/main/res/layout/fragment_quran_frag.xml" value="0.36666666666666664" />
         <entry key="..\:/ISLAMIAPP/app/src/main/res/layout/fragment_radio_frag.xml" value="0.35260416666666666" />
+        <entry key="..\:/ISLAMIAPP/app/src/main/res/layout/hadeeth_content.xml" value="0.365625" />
+        <entry key="..\:/ISLAMIAPP/app/src/main/res/layout/item_hadeeth.xml" value="0.275" />
+        <entry key="..\:/ISLAMIAPP/app/src/main/res/layout/itemhadeth1.xml" value="0.36666666666666664" />
         <entry key="..\:/ISLAMIAPP/app/src/main/res/layout/splash_screen.xml" value="0.17831813576494426" />
         <entry key="..\:/ISLAMIAPP/app/src/main/res/layout/sura_details1.xml" value="0.365625" />
         <entry key="..\:/ISLAMIAPP/app/src/main/res/layout/suras_name.xml" value="0.365625" />

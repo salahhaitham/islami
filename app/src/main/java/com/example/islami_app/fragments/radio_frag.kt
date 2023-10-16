@@ -1,24 +1,24 @@
-package com.example.islami_app
+package com.example.islami_app.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.islami_app.databinding.FragmentHadeethFrgBinding
+import com.example.islami_app.R
 
 
-class hadeeth_frg : Fragment() {
+class radio_frag : Fragment() {
 
-lateinit var viewbinding:FragmentHadeethFrgBinding
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-viewbinding=FragmentHadeethFrgBinding.inflate(layoutInflater,container,false)
-
-        return viewbinding.root
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_radio_frag, container, false)
     }
+
 
             }
 

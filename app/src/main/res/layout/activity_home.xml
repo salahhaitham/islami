@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:layout_width="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".home_activity"
+    tools:context=".myactivities.home_activity"
     android:background="@drawable/bg3"
 
 

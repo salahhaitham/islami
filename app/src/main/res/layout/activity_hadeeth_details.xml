@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="@layout/hadeeth_content"
 
-   app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:showIn="@layout/sura_details1"
-    tools:context=".quran.Sura_detailsActivity"
     >
-
-
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
         android:layout_height="0dp"
@@ -23,17 +22,21 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
 
-        app:layout_constraintWidth_percent="0.9"
-
+        app:layout_constraintWidth_percent="0.8"
 
         >
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/vrese_recyclerview"
+        <TextView
+            android:id="@+id/text_hadeeth11"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            tools:listitem="@layout/verse_recycler" />
+android:textSize="20sp"
+           android:textColor="@color/primary"
+
+            />
 
     </androidx.cardview.widget.CardView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
+
+

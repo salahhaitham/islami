@@ -1,10 +1,11 @@
-package com.example.islami_app
+package com.example.islami_app.fragments
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.example.islami_app.R
 
 class tasbeeh_frag : Fragment() {
 

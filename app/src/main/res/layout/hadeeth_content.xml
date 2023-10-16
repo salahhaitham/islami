@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/bg3"
+    tools:context=".hadeeth.Hadeeth_Details_Activity"
+    >
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transperent"
+        app:elevation="0dp"
+
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolpar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            >
+            <TextView
+                android:id="@+id/Hadeeth_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hadeeth_name"
+                android:textSize="30sp"
+                android:layout_gravity="center"
+                />
+
+
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <include
+        android:id="@+id/hadeethcontent"
+        layout="@layout/activity_hadeeth_details"
+        />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
+
+

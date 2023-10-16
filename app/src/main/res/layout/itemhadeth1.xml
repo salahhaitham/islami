@@ -2,31 +2,29 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:context=".quran.Sura_detailsActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <TextView
-        android:id="@+id/verse_details1"
+        android:id="@+id/hadeeth_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="8dp"
         android:text="asdasda"
+
         android:textStyle="bold"
-        android:textSize="20dp"
         android:textColor="@color/primary"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
         />
     <View
         android:layout_width="0dp"
         android:layout_height="1dp"
         android:background="@color/primary"
         app:layout_constraintWidth_percent="0.7"
-        app:layout_constraintTop_toBottomOf="@id/verse_details1"
+        app:layout_constraintTop_toBottomOf="@id/hadeeth_title"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
